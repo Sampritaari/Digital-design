@@ -13,14 +13,14 @@ This repository contains my personal ASIC/Digital Design projects using open-sou
   - Layout GDS (`final/alu.gds`)
   - Timing and area reports
 
-> Next: Building sequential logic designs with clock/reset (FIFO, mini-RISC-V core).
+
   
 
 📷 Screenshots in `alu/results/`![iScreen Shoter - 20250823162054573](https://github.com/user-attachments/assets/aacd407b-0388-4fae-9342-ba87af67cb96)
 
 
 ---
-#Next: Building sequential logic designs with clock/reset (FIFO, mini-RISC-V core).
+#### Next: Building sequential logic designs with clock/reset (FIFO, mini-RISC-V core).
  
 
 ---
