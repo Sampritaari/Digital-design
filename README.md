@@ -1,37 +1,27 @@
-# Digital-design
-# ASIC Projects – RTL to GDS Flow 🚀
+# Digital Design Projects
 
-This repository documents my learning journey in **Digital Design & ASIC Flow**  
-using **OpenLane, Yosys, OpenROAD, Icarus Verilog, and GTKWave**.  
+This repository contains my personal ASIC/Digital Design projects using open-source tools like OpenLane, Yosys, and OpenROAD.
 
-The goal is to build a strong foundation in **RTL design → synthesis → place & route → GDS**  
-and showcase practical projects beyond coursework.
+## Projects
 
----
+### ALU (Arithmetic Logic Unit)
+- **Language**: Verilog
+- **Tools**: OpenLane (RTL → GDSII)
+- **Features**: Performs basic arithmetic and logical operations.
+- **Results**:
+  - Synthesized netlist (`synthesis/alu.synthesis.v`)
+  - Layout GDS (`final/alu.gds`)
+  - Timing and area reports
 
-## 📌 Tools Used
-- **Icarus Verilog** – simulation  
-- **GTKWave** – waveform viewing  
-- **Yosys** – synthesis  
-- **OpenROAD / OpenLane** – physical design & layout  
-- **Skywater 130nm PDK**  
-
----
-
-## 🔹 Project 1: ALU
-- RTL implementation of a simple ALU (add, sub, AND, OR, XOR)  
-- Full flow run in OpenLane → **netlist + layout (GDSII)**  
-- Verified using testbench simulation  
+> Next: Building sequential logic designs with clock/reset (FIFO, mini-RISC-V core).
+  
 
 📷 Screenshots in `alu/results/`![iScreen Shoter - 20250823162054573](https://github.com/user-attachments/assets/aacd407b-0388-4fae-9342-ba87af67cb96)
 
 
 ---
-
-## 🔜 Next Steps
-- Integrate a **RISC-V core (PicoRV32)**  
-- Run RTL-to-GDS flow  
-- Add simple software test (C program running on synthesized core)  
+#Next: Building sequential logic designs with clock/reset (FIFO, mini-RISC-V core).
+ 
 
 ---
 
